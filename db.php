@@ -9,8 +9,8 @@ class DB
     function __construct()
     {
         $this->host = "LOCALHOST";
-        $this->user = "skolnieks";
-        $this->pass = "pQcM10ClEn3lSWy";
+        $this->user = "root";
+        $this->pass = "";
         $this->dbname = "viesu_gramata";
         $this->conn = new mysqli($this->host, $this->user, $this->pass, $this->dbname);
     }
